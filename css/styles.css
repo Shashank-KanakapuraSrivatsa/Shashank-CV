@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  background-color: #e4f9f5;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+@keyframes bottom-cloud-animation {
+  from {
+    margin-left: 100px;
+  }
+
+  to {
+    margin-left: 600px;
+  }
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 350px;
+  animation-name: bottom-cloud-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.hello {
+  font-family: 'Merriweather', serif;
+  color: #11999e;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.my-heading {
+  font-family: 'Merriweather', serif;
+  color: #11999e;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.last-line {
+  margin-bottom: 50px;
+}
+
+.line-seperator {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 300px;
+  padding: 0;
+}
+
+.my-lists {
+  text-align: justify;
+  width: 60%;
+  margin-left: 17%;
+  line-height: 2;
+}
+
+.footer-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.my-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 600%;
+  color: #11999e;
+}
+
+.my-intro {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  color: #11999e;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.MS-Paderborn{
+  padding-top: 100px;
+}
+
+.my-objective {
+  color: #40514e;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  width: 70%;
+  margin: 10px auto 10px auto;
+}
+
+.experience-row {
+  color: #40514e;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  width: 70%;
+  margin: 10px auto 10px auto;
+}
+
+.education-row {
+  color: #40514e;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  width: 70%;
+  margin: 10px auto 10px auto;
+}
+
+.skill-row {
+  color: #40514e;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  width: 70%;
+  margin: 10px auto 10px auto;
+}
+
+.top-container {
+  padding-top: 150px;
+}
+
+@keyframes top-cloud-animation {
+  from {
+    margin-right: 100px;
+  }
+
+  to {
+    margin-right: 600px;
+  }
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  animation-name: top-cloud-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
